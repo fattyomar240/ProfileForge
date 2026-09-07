@@ -176,7 +176,7 @@ export default function CreateProfilePage() {
               <FormField
                 label="Full name"
                 required
-                placeholder="e.g. Jordan Avery"
+                placeholder="e.g. omar fatty"
                 value={profile.fullName}
                 error={errors.fullName}
                 onChange={(e) => update('fullName', e.target.value)}
@@ -185,7 +185,7 @@ export default function CreateProfilePage() {
               <FormField
                 label="Professional title"
                 required
-                placeholder="e.g. Senior Product Designer"
+                placeholder="e.g. Agentic software Developer"
                 value={profile.title}
                 error={errors.title}
                 onChange={(e) => update('title', e.target.value)}
